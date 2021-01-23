@@ -1,4 +1,4 @@
-baseURL = "https://incolore-team.github.io/os-dev/"
+baseURL = "https://os-dev.incolore.net"
 languageCode = "zh-cn"
 title = "操作系统开发"
 theme = "book"
