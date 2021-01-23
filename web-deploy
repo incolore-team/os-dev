@@ -19,7 +19,12 @@ echo "Removing existing files"
 rm -rf web/public/*
 
 echo "Generating site"
+
+cd web
+
 hugo
+
+cd ..
 
 echo "Updating gh-pages branch"
 cd web/public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
