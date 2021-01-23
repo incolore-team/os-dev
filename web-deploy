@@ -31,4 +31,6 @@ cd ..
 echo "Updating gh-pages branch"
 cd web/public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
+cd ../../
+
 git subtree push --prefix web/public origin gh-pages
