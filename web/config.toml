@@ -1,0 +1,7 @@
+baseURL = "http://os-dev.js.org/"
+languageCode = "zh-cn"
+title = "操作系统开发"
+theme = "book"
+
+[params]
+BookMenuBundle = "/menu"
