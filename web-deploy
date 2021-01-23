@@ -10,7 +10,7 @@ echo "Deleting old web/publication"
 rm -rf web/public
 mkdir web/public
 git worktree prune
-rm -rf ../.git/worktrees/web/public/
+rm -rf ./.git/worktrees/web/public/
 
 echo "Checking out gh-pages branch into web/public"
 git worktree add -B gh-pages web/public upstream/gh-pages
