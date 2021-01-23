@@ -6,6 +6,8 @@ then
     exit 1;
 fi
 
+
+
 echo "Deleting old web/publication"
 rm -rf web/public
 mkdir web/public
@@ -31,3 +33,5 @@ cd web/public && git add --all && git commit -m "Publishing to gh-pages (publish
 
 #echo "Pushing to github"
 git push --all
+
+git subtree push --prefix web/public origin gh-pages
